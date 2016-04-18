@@ -1,0 +1,44 @@
+{
+  "name": "grunt-builder-lll-express-v4",
+  "description": "Builder for grunt-generic-builder that targets Express v4 applications",
+  "homepage": "https://github.com/lucaslopez/grunt-builder-lll-express-v4",
+  "license": "MIT",
+  "version": "0.1.0",
+  "author": {
+    "name": "Lucas L. Lopez",
+    "email": "lucas.lopez@gmail.com",
+    "url": "http://www.lucaslopez.net"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucaslopez/grunt-builder-lll-express-v4.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lucaslopez/grunt-builder-lll-express-v4/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/lucaslopez/grunt-builder-lll-express-v4/blob/master/LICENSE-MIT"
+    }
+  ],
+  "devDependencies": {
+    "glob": "^5.0.14",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-symlink": "^0.3.0",
+    "grunt-log": "^1.0.0",
+    "grunt-merge-json": "^0.9.5",
+    "load-grunt-config": "^0.17.2",
+	"grunt-output": "^0.1.0"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1"
+  }
+}
